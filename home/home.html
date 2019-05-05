@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Shop List
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card (click)="goTab3('Ayam Geprek Pasundan')">
+   <img src="../../assets/imgs/geprek.jpg"/>
+   <div class="card-title">Ayam Geprek Pasundan</div>
+ 
+ </ion-card>
+ <ion-card (click)="goTab1('Your Tea')">
+    <img src="../../assets/imgs/yourtea.png"/>
+    <div class="card-title">Your Tea</div>
+ </ion-card>
+ <ion-card (click)="goTab2('Martabak')">
+    <img src="../../assets/imgs/martabak.jpg"/>
+    <div class="card-title">Martabak Kubang</div>
+ </ion-card>
+ <ion-card (click)="goTab4('Pancong')">
+    <img src="../../assets/imgs/pancong.jpeg"/>
+    <div class="card-title">Pancong</div>
+ </ion-card>
+</ion-content>
